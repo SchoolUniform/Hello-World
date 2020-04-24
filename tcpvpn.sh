@@ -601,6 +601,9 @@ error() {
 pause() {
 
 	
+
+	echo -e "\n$red 输入错误！$none\n"
+
 }
 do_service() {
 	if [[ $systemd ]]; then
